@@ -4,11 +4,12 @@ function add_gtm_script() {
   // Get current site's domain
   $domain = $_SERVER['HTTP_HOST'];
   // Set default tracking ID
-  $tracking_id = 'G-HLRKWVR5W7'; // GLOBAL
+  $tracking_id = 'G-XXXXXXXXXXX'; // GLOBAL
   // Map country suffixes to tracking IDs
   $country_track_ids = array(
-    'fr' => 'G-CT09K5EETD', // FRANCE
-    'br' => 'G-J9VQKE93MF', // BRAZIL
+    'fr' => 'G-XXXXXXXXXXX', // FRANCE
+    'br' => 'G-XXXXXXXXXXX', // BRAZIL
+    'es' => 'G-XXXXXXXXXXX', // SPAIN
   );
   // Extract country suffix from domain
   $parts = explode('.', $domain);
